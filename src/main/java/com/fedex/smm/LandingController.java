@@ -10,7 +10,7 @@ public class LandingController {
 	@RequestMapping(value="plannedCommit", method=RequestMethod.GET)
 	public String calculatePlannedCommitDate() {
 		
-		return "Planned commit";
+		return "Planned commit date";
 	}
 
 }
